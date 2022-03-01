@@ -160,7 +160,7 @@ while True:
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/terasrenungan/deatechsoft/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/terasrenungan/deatechsoft/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/terasrenungan/deatechsoft/main/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
