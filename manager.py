@@ -141,8 +141,8 @@ while True:
         # thanks to github.com/th3unkn0n for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-            # https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Cryptonian007/Astra/main/version.txt')
+            # https://raw.githubusercontent.com/terasrenungan/deatechsoft/main/version.txt
+            version = requests.get('https://raw.githubusercontent.com/terasrenungan/deatechsoft/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -158,8 +158,8 @@ while True:
                     os.system('rm add.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Cryptonian007/Astra/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Cryptonian007/Astra/main/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/terasrenungan/deatechsoft/main/add.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/terasrenungan/deatechsoft/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
